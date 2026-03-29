@@ -174,7 +174,7 @@ This one command automatically creates **everything** in your AWS account:
 
 > 👇 After deploy, your Lambda console will show exactly 2 functions:
 
-![](<Screenshot (583).png>)
+![](<Images/Screenshot (583).png>)
 
 Both functions use **Python 3.12** runtime and are deployed as **Zip** packages.
 
@@ -187,7 +187,7 @@ Go to:
 
 > 👇 Fill in the values exactly like this:
 
-![](<Screenshot (582).png>)
+![](<Images/Screenshot (582).png>)
 
 | Key | Value |
 |---|---|
@@ -212,7 +212,7 @@ aws lambda invoke --function-name cost-optimizer-scanner --region us-east-1 --pa
 
 > 👇 This is what a successful test looks like:
 
-![](<Screenshot (581).png>)
+![](<Images/Screenshot (581).png>)
 
 You'll get:
 ```json
@@ -237,7 +237,7 @@ aws logs tail /aws/lambda/cost-optimizer-scanner --region us-east-1 --since 5m
 
 > 👇 Here's what the logs look like:
 
-![](<Screenshot (586).png>)
+![](<Images/Screenshot (586).png>)
 
 **Understanding the log output:**
 
