@@ -98,7 +98,7 @@ If these are idle — you're paying for nothing. The scanner catches them.
 
 > 👇 Here's the actual scanner code in VS Code:
 
-![](<Screenshot (585).png>)
+![](<Images/Screenshot (585).png>)
 
 ---
 
